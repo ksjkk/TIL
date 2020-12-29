@@ -4,3 +4,4 @@
 - git add .
 - git commit -m "commit message"
 - git push origin master
+- 나는 브런치
