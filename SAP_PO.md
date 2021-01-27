@@ -35,9 +35,7 @@
         1. 설치되어있는 Products가 왼쪽에 표시됨
         2. By Product > New.. 버튼 클릭
         3. Create a new product and version
-        4.  Name : ILDONG_EDU02
-            VENDOR : ildong.com
-            VERSION : 1.0
+        4.  Name : ILDONG_EDU02  VENDOR : ildong.com  VERSION : 1.0
         5. INSTANCE NAME : EDU02
         6. NAME FORMAT : ERP_`<MODULE>`
         7. FINISH
