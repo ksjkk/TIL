@@ -40,5 +40,20 @@
         6. NAME FORMAT : ERP_`<MODULE>`
         7. FINISH
     2. Software Components
+        1. 생성한 Products 확인
     3. Technical Systems(논리적주소)
+        1. New Technical System
+        2. Third-Party
+        3. 내가만든 Product 선택
+        4. Business Stystems 탭 선택
     4. Business Systems(물리적주소)
+        1. Add New Business System
+        2. Logical System Name : EDU02
+        3. Name : EDU02
+        4. 선택
+        5. Related Integration Server : INTEGRATION_ENGINE_JAVA_POD
+2. Enterprise Services Builder
+    1. Ctrl+N > WOrks Areas > Software Component Version
+    2. Import from SLD > 내가만든SLD 선택
+    3. English 선택후 저장
+    
