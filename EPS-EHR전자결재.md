@@ -57,8 +57,8 @@ cd /prd/app/groupware/UI/approval/WEB-INF/views/forms/templates/    > 운영
 ***
 
 ## 결재완료시 프로시저
-> Redis에 프로시저명 저장되어있고 java에서 가져옴
-> Redis에 프로시저명과 Cron 설정
+> Redis에 프로시저명 저장되어있고 java에서 가져옴<br/>
+> Redis에 프로시저명과 Cron 설정<br/>
 > `EPS` EPS 관리자CMS > 시스템관리 > 기초설정관리 > 설정키 EHR 조회
 ```java
 fileName : FormCmmFunctionSvcImpl.java
