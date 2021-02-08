@@ -9,4 +9,9 @@
 
 * 이 함수는 두 문자열 간의 일치 정도를 계산하고 0 (일치 없음)과 100 (완벽한 일치) 사이의 점수를 반환합니다.
 
+```sql
+UTL_MATCH.JARO_WINKLER_SIMILARITY(STR1,STR2);
+--STR1 과 STR2 의 유사도를 나타내줌
+```
+
 #### 출처 docs.oracle.com/cd/E18283_01/appdev.112/e16760/u_match.htm

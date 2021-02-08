@@ -45,3 +45,7 @@ sendDataToGw(getFormData($("#sendForm")),[sheet1]);
 // grid 2개일때
 sendDataToGw(getFormData($("#sendForm")),[sheet1,sheet2]);
 ```
+
+ - 데이터는 json 형태로 REST API를 통해서 전송함
+ - 그룹웨어에서는 데이터를 json 형태 그대로 CLOB 타입 컬럼에 저장함
+ - 본문에서는 JSON body를 가져와서 맵핑
