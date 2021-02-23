@@ -56,4 +56,14 @@
     1. Ctrl+N > WOrks Areas > Software Component Version
     2. Import from SLD > 내가만든SLD 선택
     3. English 선택후 저장
-    
+    4. Namespace > Open
+    5. 저장버튼 옆에 연필버튼(Edit)
+    6. Name : URL입력(http포함)
+        * #3416 PO Interface List 참고
+        * NameFormat : ildong.com/@@@_### -> @@@에서 ### 으로
+    7. 왼쪽상단탭 > Change Lists > 2 level 우클릭 > Activate..
+    8. Design Objects 탭에서 해당 url 우클릭 > New > Data Types
+        * NameFormat : IF@이름@_@@@_S_DT(SOURCE DATA)
+        * NameFormat : IF@이름@_###_T_DT(TARGET DATA)
+    9. SOURCE Data Type 생성 > @@@ ERP면 SAP 테이블 구조
+    10. TARGET Data Type 생성 > ### Legacy DB면 DB 테이블 구조
