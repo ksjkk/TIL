@@ -15,6 +15,7 @@ controller(responsebody)
 ```bash
 cd /c/'Program Files (x86)'/H2/bin
 ./h2.bat
+
 ```
 
 @SpringBootTest : 스프링 컨테이너와 테스트를 함께 실행한다.
