@@ -14,6 +14,25 @@
 - Spring 은 객체지향언어가 가진 강력한 특징을 살려내는 Framework
 - *좋은 객체 지향* Application 을 개발할 수 있게 도와주는 Framework
 
+> 좋은 객체지향설계의 5가지 원칙(SOLID)
+
+1. SRP (단일 책임 원칙)
+ - Single Reponsibility Principle
+ - 변경이 있을 때 파급 효과가 적으면 단일 책임 원칙을 잘 따른 것
+2. OCP (개방/폐쇄 원칙)
+ - Open/Closed Principle
+ - 확장에 열려있고 변경에 닫혀있다
+ - 다형성을 통해 기능을 나눌 수 있다
+3. LSP (리스코프 치환 원칙)
+ - Liskov Substitution Principle
+ - 일종의 규약을 벗어가서는 안된다
+ - 컴파일을 넘어서서 다형성을 지원하기 위해 인터페이스 규약을 지켜야한다
+4. ISP (인터페이스 분리 원칙)
+ - Interface Segregation Principle
+ - 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다
+5. DIP (의존관계 역전 원칙)
+ - Dependency Inversion Principle
+ - 추상화에 의존해야 하며 구현체에 의존하면 안된다
 
 [위로](#til)
 ***
